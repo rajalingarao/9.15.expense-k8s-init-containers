@@ -40,3 +40,9 @@ kubectl apply -f debug/manifest.yaml
 ```
 kubectl delete pods --all -n your-namespace
 ```
+
+* This is classic load balancer:
+```
+http://afc79b680d5f34a1694fae92ec7cf3cc-617678930.us-east-1.elb.amazonaws.com
+
+```
